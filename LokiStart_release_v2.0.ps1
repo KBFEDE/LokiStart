@@ -1,6 +1,6 @@
 $origin_director = pwd
 # Init Parameter
-$User_Name = 'A0503807' # Use your own User Name
+$User_Name = 'KBFEDE' # Use your own User Name
 
 # URL of the Inputs
 $ccs_version = '12.4.0'
