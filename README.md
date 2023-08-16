@@ -3,7 +3,7 @@
 This powershell scripts meant to help you download and install all the mandatory software tools when they choose [CC23xx](https://www.ti.com/product/CC2340R5) the MCU based BLE (low energy bluetooth) chip designed and manufactured by [Texas Instruments](https://www.ti.com/).
 
 ## How to use
-1. Open the LokiStar_release_vx.0.ps1 with VS Code
+1. Open the `LokiStar_release_vx.0.ps1` with VS Code
 ```
 Note:
 - For release v1.0, you should change the download directory to your own manually.
