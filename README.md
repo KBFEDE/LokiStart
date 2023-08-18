@@ -6,13 +6,17 @@ This powershell scripts meant to help you download and install all the mandatory
 1. Open the `LokiStar_release_vx.0.ps1` with VS Code
 ```
 Note:
-- For release v1.0, you should change the download directory to your own manually.
-- For release v2.0, you should change `USER_NAME` desfined in the script to your own user name on your PC.
+- For release v2.0, you should change the USER_NAME to your own.
+- For release v3.0, directly execute it and you will find the softwares are under path `C:\ti\ti-cc2340`.
 ```
-2. Change the URL of the software if needed.
-3. Save the script and open a powershell terminal in the downloading directory.
+
+3. Change directory to where you download the script, open a powershell terminal.
 ```c
 .\LokiStart_release_v2.0.ps1
+```
+or 
+```c
+.\LokiStart_release_v3.0.ps1
 ```
 
 ## Feature Not Support
@@ -24,7 +28,7 @@ I don't want to make this tools so sofisticated, so there won't be so much featu
 1. Do not need to change the script, just run it, and it will prepare all the softwares
 - [Why not] I want to download the softwares under `.\Downloads\`, so it needs your own user name on a specific PC.
 2. Select the versions of the software you want.
-- [Why Not] Because I have no time to do it now.
+- [Why Not] SDK is not a software that changes frequently, and I don't want to let you to choose the SDK version.
 3. Check whether the download is successful.
 - [Why Not] I'm still learning how to do it.
 
