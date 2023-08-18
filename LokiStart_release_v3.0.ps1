@@ -26,7 +26,7 @@ $rtos_url = 'https://github.com/FreeRTOS/FreeRTOS/releases/download/' + $rtos_ve
 #############################################################################################################################################################################################
 
 # Getting Start
-Write-Host "##################### LokiStart $LokiStart_Verison_Tag #####################"
+Write-Host  "[LokiStart]"
 
 # Go to Downloads directory
 cd 'C:\'
