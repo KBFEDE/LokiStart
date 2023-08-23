@@ -1,9 +1,9 @@
 # LokiStart Project
 
-This powershell scripts meant to help you download and install all the mandatory software tools when they choose [CC23xx](https://www.ti.com/product/CC2340R5) the MCU based BLE (low energy bluetooth) chip designed and manufactured by [Texas Instruments](https://www.ti.com/).
+This powershell scripts meant to help you download and install all the mandatory software tools when you choose [CC23xx](https://www.ti.com/product/CC2340R5), the MCU based BLE (low energy bluetooth) chip designed and manufactured by [Texas Instruments](https://www.ti.com/).
 
 ## How to use
-1. Open the `LokiStar_release_vx.0.ps1` with VS Code
+1. Open the `LokiStar_release_vx.0.ps1` with VS Code or other editors.
 ```
 Note:
 - For release v2.0, you should change the USER_NAME to your own.
@@ -28,10 +28,12 @@ I don't want to make this tools so sofisticated, so there won't be so much featu
 1. Do not need to change the script, just run it, and it will prepare all the softwares
 - [Why not] I want to download the softwares under `.\Downloads\`, so it needs your own user name on a specific PC.
 2. Select the versions of the software you want.
-- [Why Not] SDK is not a software that changes frequently, and I don't want to let you to choose the SDK version.
+- [Why Not] SDK is not a software that changes frequently, and I don't want to let yourself to choose the SDK version.
 3. Check whether the download is successful.
 - [Why Not] I'm still learning how to do it.
+4. Check whether there is a update of the softwares.
+  - [Why Not] I'm still learning how to do it.
 
 ## Plan for the change
 
-I will update the scripts when new SDK released.
+This project will only has the `main` branch, I will add new release when new SDK released.
